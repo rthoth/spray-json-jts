@@ -1,2 +1,13 @@
 *.class
 *.log
+*~
+
+target/
+
+.ensime
+
+.ensime_cache/
+
+ensime.sbt
+
+project/target/
