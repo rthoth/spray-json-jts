@@ -11,5 +11,7 @@ lazy val root = (project in file(".")).
          "com.vividsolutions" % "jts-core" % "1.14.0" % Provided,
          "io.spray" %%  "spray-json" % "1.3.3" % Provided,
          "org.scalatest" %% "scalatest" % "3.0.1" % Test
-      )
+      ),
+      bintrayOrganization := Some("lemaf"),
+      licenses += ("LGPL-3.0", url("https://opensource.org/licenses/LGPL-3.0"))
    )
