@@ -1,6 +1,6 @@
 package test
 
-import br.ufla.spray.json.GeoJSON._
+import spray.json.geojson.GeoJSON._
 import com.vividsolutions.jts.geom.{Geometry, GeometryFactory}
 import spray.json._
 

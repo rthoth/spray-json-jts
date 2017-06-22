@@ -1,4 +1,4 @@
-package br.ufla.spray.json
+package spray.json.geojson
 
 import com.vividsolutions.jts.geom._
 import spray.json._
