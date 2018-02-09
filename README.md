@@ -1,5 +1,7 @@
 # spray-json-jts
 
+[![Build Status](https://travis-ci.org/rthoth/spray-json-jts.svg?branch=master)](https://travis-ci.org/rthoth/spray-json-jts)
+
 ## How to use
 
 This library provides a reader/writer for [GeoJSON](http://geojson.org/) to [Spray JSON](https://github.com/spray/spray-json).
@@ -8,7 +10,7 @@ If you use SBT you just include de follow dependency.
 
 ```scala
 
-libraryDependencies += "br.ufla" %% "spray-jts-json" %% "0.0.1"
+libraryDependencies += "br.ufla" %% "spray-jts-json" % "0.0.1"
 
 ```
 
