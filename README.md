@@ -9,17 +9,19 @@ This library provides a reader/writer for [GeoJSON](http://geojson.org/) to [Spr
 If you use SBT you just include de follow dependency.
 
 ```scala
-
-libraryDependencies += "br.ufla" %% "spray-jts-json" % "0.0.1"
-
+libraryDependencies += "br.ufla" %% "spray-jts-json" % "1.0.0"
 ```
 
-You only need import the follow code:
+This library is available at my bintray repository:
+
+```
+https://dl.bintray.com/rthoth/releases
+```
+
+After that you only need import the follow code:
 
 ```scala
-
 import spray.json.geojson.GeoJSON._
-
 ```
 
 
@@ -27,7 +29,6 @@ And then to provide an implicit `com.vividsolutions.jts.geom.GeometryFactory`, f
 
 
 ```scala
-
 import spray.json.geojson.GeoJSON._
 import com.vividsolutions.jts.geom._
 import spray.json._
