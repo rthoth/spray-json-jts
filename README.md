@@ -6,6 +6,8 @@
 
 This library provides a reader/writer for [GeoJSON](http://geojson.org/) to [Spray JSON](https://github.com/spray/spray-json).
 
+[![Latest version](https://index.scala-lang.org/rthoth/spray-json-jts/latest.svg)](https://index.scala-lang.org/rthoth/spray-json-jts/spray-json-jts)
+
 If you use SBT you just include de follow dependency.
 
 ```scala
