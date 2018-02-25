@@ -32,6 +32,8 @@ lazy val root = (project in file(".")).
         url = url("https://github.com/rthoth")
       )
     ),
-    publishTo := Some("Bintray" at "https://api.bintray.com/maven/rthoth/releases/spray-json-jts/;publish=1"),
+    /* publishTo := Some("Bintray" at "https://api.bintray.com/maven/rthoth/releases/spray-json-jts/;publish=1"), */
+    bintrayRepository := "releases",
+    bintrayPackageLabels := Seq("spray", "json", "geojson", "jts"),
     credentials += Credentials(Path.userHome / ".ivy2" / ".credentials")
   )
