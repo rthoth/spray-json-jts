@@ -11,7 +11,7 @@ This library provides a reader/writer for [GeoJSON](http://geojson.org/) to [Spr
 If you use SBT you just include de follow dependency.
 
 ```scala
-libraryDependencies += "br.ufla" %% "spray-jts-json" % "1.0.0"
+libraryDependencies += "br.ufla" %% "spray-json-jts" % "1.0.0"
 ```
 
 This library is available at my bintray repository:
